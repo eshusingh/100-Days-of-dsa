@@ -1,4 +1,17 @@
-# 100-Days-of-dsa
-This repository contains a 100 days practice sheet of dsa
+# DATA STRUCTURES ANND ALGORITHMS IN C++
 
-Day1 : ARRAYS
+# DSA IN C++
+
+This repository conntains a detailed reference of various DSA topics with important questions.
+
+
+## INDEX
+
+CONTENTS:
+
+TOPIC 1 : ARRAYS 
+
+TOPIC 2 : BINARY SEARCH
+
+TOPIC 3 : RECURSION
+
