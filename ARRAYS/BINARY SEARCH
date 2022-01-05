@@ -1,3 +1,37 @@
-Binary Search for sorted array.
+//Binary Search for sorted array.
 
-Time complexity is o(log n)
+//Time complexity is o(log n)
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+  int n;
+  cin>>n;
+  int arr[n];
+  for(int i=0;i<n;i++)
+  {
+      cin>>arr[i];
+  }
+ 
+ int key;
+ cin>>key;
+ int ans;
+ int st =0;
+ int en = n-1;
+ int mid = st + (en-st)/2;
+ while(st<=en)
+ {
+   if(arr[mid]== key)
+   {
+   ans = mid;
+   break;
+   }
+   else if(arr[mid]>key)
+   en = mid-1;
+   else
+   st = mid+1;
+ }
+ cout<<ans;
+  return 0;
+}
